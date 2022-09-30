@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-container {
+    margin: 0px 60px ;
+}
+
+.main-header-container {
+    padding-top: 20px;
+}
+
+.top-header-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-header-middle {
+    margin-left: 250px;
+}
+
+.top-header-middle a, .top-header-right a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-header-container div {
+    padding: 2px 15px;
+}
+
+.top-header-container div a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-header-left a {
+    padding-right: 25px;
+    font-size: 18px;
+}
+
+.top-header-middle a {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.top-header-container .top-header-right a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+    background-color: #567b95;
+    border-radius: 3px;
+}
+
+/* styling Centre header element */
+
+.centre-header-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(216, 215, 215);
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.centre-header-container div {
+    margin: auto 0px;
+}
+
+.centre-header-left span a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.centre-header-left h4 {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.centre-header-middle img {
+    height: 85px;
+    width: 600px;
+}
+
+.centre-header-right .sun {
+    color: rgb(243, 185, 77);
+}
+
+.centre-header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.centre-header-right div span.loss {
+    color: darkred;
+}
+
+.centre-header-right span{
+    width: 100%;
+}
+
+
+/* Bottom Header Styling */
+
+.bottom-header-container {
+    border-bottom: double;
+}
+
+.bottom-header-nav-links {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.bottom-header-nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 0 7px;
+}
